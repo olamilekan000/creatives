@@ -1,0 +1,390 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+  /* background-color: #000964; */
+}
+
+nav {
+  position: fixed !important;
+  min-height: 50px;
+  z-index: 2;
+}
+
+.transparent {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+.transparentBG {
+  background-color: rgba(0, 0, 0, 0) !important
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.40);
+}
+
+.section-right {
+  position: relative;
+  margin-top: -10%;
+}
+
+.section-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.second-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-left {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+
+.social-btn {
+  margin-top: 10%;
+}
+
+
+#services {
+  background-image: url(./assets/array_dots.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 5%;
+}
+
+#services {
+  background-color: #502EFF;
+  /* height: 90vh; */
+  margin-top: -10%;
+}
+
+#services>.row {
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+#services-items {
+  width: 100%;
+  height: 500px;
+  margin-top: 15%;
+  padding: 2%;
+  /* background-color: red; */
+}
+
+#services-items-text {
+  color: #fff;
+}
+
+#play_section {
+  margin-top: 8%;
+}
+
+#play_section p {
+  margin-left: 2%;
+  color: #000964;
+}
+
+#teams {
+  background-image: url(./assets/Group.png);
+  background-size: 100% 70%;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: 50% 10%;
+  margin-top: 5%;
+}
+
+#guy_in_red {
+  background-color: #FFC5B8;
+  background-image: url(./assets/rsz_red.png);
+  min-height: 320px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+#girl_in_middle {
+  background-color: #FF5630;
+  /* height: 100px; */
+
+  background-image: url(./assets/rsz_1girl.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-top: 3%;
+  /* max-width: 370px; */
+  max-height: 320px;
+  /* margin-left: 5%; */
+}
+
+#guy_in_hat {
+  background-image: url(./assets/guy_hat.png);
+  min-height: 320px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-top: 3%;
+  background-color: #3E4863;
+
+  /* max-width: 370px; */
+}
+
+#play_button {
+  background-color: #502EFF;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  width: 60%;
+  margin: auto;
+}
+
+#play_button i {
+  color: #fff;
+}
+
+#play_section {
+  display: flex;
+  align-items: center;
+}
+
+#inner-services {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+i.material-icons {
+  display: inline-block;
+  border-radius: 60px;
+  padding: 0.5em 0.6em;
+
+}
+
+#creative {
+  margin-top: 10%;
+  width: auto;
+}
+
+#creative_agency {
+  width: 80%;
+}
+
+#first-li>li>a {
+  color: #502EFF;
+}
+
+#nav-mobile {
+  width: 60%;
+}
+
+#nav-list-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 60%; */
+}
+
+#social-btn {
+  background-color: #502EFF;
+  color: #fff;
+  padding: 1%;
+  border: none;
+  border-radius: 25px;
+  width: 30%;
+  height: 50px;
+}
+
+#nav-btn {
+  background-color: #502EFF;
+  color: #fff;
+  padding: 2%;
+  border: none;
+  border-radius: 25px;
+  width: 10em;
+}
+
+#contact-us {
+  min-height: 500px;
+  /* background-color: red; */
+  padding: 5%;
+}
+
+#footer {
+  min-height: 500px;
+  background-color: #FAF7FF;
+}
+
+#hr {
+  background-color: #CBD5F9;
+  height: 3px;
+  margin-top: 5%;
+}
+
+#social-icons-footer img {
+  padding-right: 10%;
+}
+
+#social-icons-footer {
+  margin-left: -3%;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#footer-content>div,
+p li {
+  color: #502EFF;
+}
+
+/* #contact-inner {
+  display: 'flex';
+  justify-content: center;
+  align-items: center;
+} */
+
+.contact-form {
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+input:not([type]),
+input[type=text] {
+  border-color: #502EFF !important;
+  border-width: 3px !important;
+  border: 3px;
+}
+
+.btn {
+  background-color: #502EFF !important;
+}
+
+@media only screen and (max-width: 1320px) {
+  #nav-list-flex {
+    width: 130% !important;
+  }
+
+  #great {
+    width: 65% !important;
+  }
+
+  /* body {
+    background-color: red;
+  } */
+
+  #creative {
+    display: none;
+  }
+
+  #teams {
+    background-image: none;
+    margin-top: 5%;
+  }
+
+  #social-btn {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+  #great {
+    width: 65% !important;
+    font-size: 1.5rem !important;
+  }
+
+  body {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .section-right {
+    display: none;
+  }
+
+  /* .section-left {
+    background-image: url(./assets/guy.png);
+  } */
+
+  .second-section-container .row {}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .guy_in_red {
+    margin-bottom: 8%;
+  }
+
+  .guy_in_red p,
+  .girl_in_middle p,
+  .guy_in_hat p {
+    width: 40% !important;
+    color: #fff !important;
+  }
+
+  .girl_in_middle {
+    margin-bottom: 8%;
+  }
+
+
+  .guy_in_hat {
+    margin-bottom: 8%;
+  }
+
+  #footer-content>div,
+  p li {
+    text-align: center;
+  }
+
+
+  #footer-content>div,
+  p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  #social-icons-footer img {
+    padding-right: 3%;
+  }
+
+}
+
+@media only screen and (max-width: 460px) {
+  #great {
+    width: 70% !important;
+    font-size: 1rem !important;
+  }
+
+}
